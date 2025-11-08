@@ -8,3 +8,5 @@
 8. Files created by dvc - data.dvc and modification on gitignore
 9. Now 'dvc commit' and then 'dvc push'.
 10. Do git commit push to mark this stage as first version of data.
+11. Make changes to code to add new row in data . also save the data. 
+12. Check dvs status then dvc commit and then dvc push 

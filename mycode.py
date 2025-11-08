@@ -7,7 +7,9 @@ data={'Name':['A','B','C'],'Age':[25,30,35],'City':['Boston','Austin','LA']}
 #Conveert to Dataframe
 df=pd.DataFrame(data)
 
-
+# Addiing new row to df for V2
+new_row_df={'Name':'GF1','Age':20,'City':'Pheonix'}
+df.loc[len(df.index)]=new_row_df
 
 # Ensure the 'data' directory exists at the root level
 data_dir='data'
